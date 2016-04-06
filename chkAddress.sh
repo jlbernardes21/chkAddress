@@ -7,7 +7,7 @@ checkFile="/var/log/addressStatus/lastAddress"
 MAIL="./sendEmail.sh"
 currentAddress=`dig +short myip.opendns.com @resolver1.opendns.com`
 lastAddress=`cat $checkFile`
-MONADDR="monitoramentoblp@gmail.com"
+MONADDR="example@gmail.com"
 DATE=`date +%d-%m-%Y`
 TIME=`date +%H%M`
 
